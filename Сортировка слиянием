@@ -42,8 +42,8 @@ while h.isdecimal() == False:
 h=int(h)
 print('Введите значения второго массива:')
 b=[]
-for i in range(h):                                        ## Вводим значения массива, с такой же проверкой на число, 
-    c=input()                                             ## но уже с плавающей точкой
+for i in range(h):                                        
+    c=input()                                             
     while is_number(c) == False:
         print('Ошбика ввода: введите число')
         c=input()
